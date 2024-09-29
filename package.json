@@ -1,0 +1,29 @@
+{
+  "name": "my-toolkit",
+  "version": "1.0.0",
+  "description": "A collection of small tools for repetitive tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayyoub-Kasmi/my-toolkit.git"
+  },
+  "keywords": [
+    "nodejs",
+    "tools",
+    "toolkit",
+    "packages",
+    "package"
+  ],
+  "author": "Ayyoub Kasmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayyoub-Kasmi/my-toolkit/issues"
+  },
+  "homepage": "https://github.com/Ayyoub-Kasmi/my-toolkit#readme",
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
