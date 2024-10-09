@@ -1,3 +1,10 @@
-import ImageHandler from './image'
+const ImageHandler = require('./image')
 
-ImageHandler.imageToWebp('input.jpg', 'output.webp')
+const images = []
+
+images.forEach(image => {
+  const imageName = image.split('.')[0]
+
+  ImageHandler.imageToWebp(`images/${image}`, `output/${imageName}.webp`)
+})
+
